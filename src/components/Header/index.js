@@ -15,7 +15,7 @@ class Header extends React.PureComponent {
     render() {
         return (
             <header className="header">
-                <div className={'row justify-content-between mobile-header'}>
+                <div className={'row justify-content-between align-items-center mobile-header'}>
                     <div className={'col-1'}>
                         <IoIosArrowBack className={'icon'}></IoIosArrowBack>
                     </div>

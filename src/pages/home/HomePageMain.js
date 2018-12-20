@@ -40,6 +40,101 @@ class HomePageMain extends Component {
                     <div className={'main-image'}>
                         <img src={previewImage} className={'main-image__content'}></img>
                     </div>
+
+                    <div className={'info-section'}>
+                        <div className={'info-section__header'}>Einleitung</div>
+                        <div className={'info-section__content'}>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </div>
+                    </div>
+
+                    <div className={'info-section'}>
+                        <div className={'info-section__header'}>Ihre Aufgaben</div>
+                        <div className={'info-section__content'}>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div className={'info-section'}>
+                        <div className={'info-section__header'}>Ihr Profil</div>
+                        <div className={'info-section__content'}>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </li>
+
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className={'info-section'}>
+                        <div className={'info-section__header'}>Wir bieten</div>
+                        <div className={'info-section__content'}>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className={' info-section'}>
+                        <div className={'info-section__header'}>Kontakt:</div>
+                        <div className={'info-section__subheader'}>Haben wir Ihr Interesse geweckt?</div>
+                        <div className={'info-section__content'}>
+                        </div>
+                        <div className={'info-section__content'}>
+                            Wir freuen uns auf Ihre aussagekräftige Bewerbung unter Angabe Ihrer Gehaltsvorstellung und  des frühestmöglichen Eintrittstermins per E-Mail an: <a href="">job@musterfirma.de.</a> Bei Rückfragen steht Ihnen Herr Max Mustermann gerne unter der Telefonnummer 0211 / 934 93  5802 zur Verfügung.
+                        </div>
+                        <div className={'info-section__content'}>
+                            <p className={'info-section__credo'}>Musterfirma GmbH</p>
+                            <p className={'info-section__credo'}> Musterstraße 24</p>
+                            <p className={'info-section__credo'}>12345 Musterstadt</p>
+                            <p className={'info-section__credo'}><a href="">www.musterfirma.de</a></p>
+                        </div>
+                    </div>
                 </div>
             </main>
         );
