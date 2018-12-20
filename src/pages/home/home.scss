@@ -1,6 +1,6 @@
 .main-container {
 
-  .main-tabs {
+  .tabs {
     display: none;
   }
 
@@ -13,20 +13,19 @@
       position: absolute;
       top: 50%;
       left: 50%;
-      transform: translate(-50%,-50%);
+      transform: translate(-50%, -50%);
     }
   }
 
   .info-section {
     margin: 30px 0px;
-    border: 1px solid grey;
-    padding: 20px;
+    padding: 30px;
 
     .info-section__header {
       margin-bottom: 10px;
       font-size: 24px;
       font-weight: bold;
-      color:rgb(0, 63, 106);
+      color: rgb(0, 63, 106);
     }
 
     .info-section__subheader {
@@ -42,12 +41,21 @@
       }
     }
   }
+
+  .location-section {
+    .location-section__col {
+      .map-container {
+        height: 300px;
+      }
+    }
+  }
 }
+
 
 @media (max-width: 768px) {
   .main-container {
 
-    .main-tabs {
+    .tabs {
       display: block;
     }
 
@@ -58,7 +66,7 @@
         max-width: 768px;
         top: 50%;
         left: 50%;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
       }
     }
   }

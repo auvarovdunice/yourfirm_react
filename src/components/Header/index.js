@@ -20,7 +20,7 @@ class Header extends React.PureComponent {
                         <IoIosArrowBack className={'icon'}></IoIosArrowBack>
                     </div>
                     <div className={'col-6'}>
-                        <div className={'logo-container'}>
+                        <div className={'d-flex justify-content-center align-center logo-container'}>
                             <img src={logo} alt={'logo'}></img>
                         </div>
                     </div>

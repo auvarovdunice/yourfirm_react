@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
+import {GoogleMap, Marker} from "react-google-maps"
+import {MapComponent} from './components/MapComponent/MapComponent'
 
 import previewImage from '../../public/Layer1.png'
 
@@ -24,7 +26,7 @@ class HomePageMain extends Component {
         return (
             <main className={'home-main'}>
                 <div className={'container main-container'}>
-                    <div className={'main-tabs'}>
+                    <div className={'tabs'}>
                         <Tabs
                             value={this.state.mobileTabValue}
                             onChange={this.tabChanged}
@@ -37,11 +39,11 @@ class HomePageMain extends Component {
                         </Tabs>
                     </div>
 
-                    <div className={'main-image'}>
+                    <div className={'main-image border'}>
                         <img src={previewImage} className={'main-image__content'}></img>
                     </div>
 
-                    <div className={'info-section'}>
+                    <div className={'info-section border'}>
                         <div className={'info-section__header'}>Einleitung</div>
                         <div className={'info-section__content'}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -52,7 +54,7 @@ class HomePageMain extends Component {
                         </div>
                     </div>
 
-                    <div className={'info-section'}>
+                    <div className={'info-section border'}>
                         <div className={'info-section__header'}>Ihre Aufgaben</div>
                         <div className={'info-section__content'}>
                             <ul>
@@ -73,7 +75,7 @@ class HomePageMain extends Component {
                     </div>
 
 
-                    <div className={'info-section'}>
+                    <div className={'info-section border'}>
                         <div className={'info-section__header'}>Ihr Profil</div>
                         <div className={'info-section__content'}>
                             <ul>
@@ -96,7 +98,7 @@ class HomePageMain extends Component {
                         </div>
                     </div>
 
-                    <div className={'info-section'}>
+                    <div className={'info-section border'}>
                         <div className={'info-section__header'}>Wir bieten</div>
                         <div className={'info-section__content'}>
                             <ul>
@@ -120,13 +122,15 @@ class HomePageMain extends Component {
                         </div>
                     </div>
 
-                    <div className={' info-section'}>
+                    <div className={'info-section border'}>
                         <div className={'info-section__header'}>Kontakt:</div>
                         <div className={'info-section__subheader'}>Haben wir Ihr Interesse geweckt?</div>
+
                         <div className={'info-section__content'}>
-                        </div>
-                        <div className={'info-section__content'}>
-                            Wir freuen uns auf Ihre aussagekräftige Bewerbung unter Angabe Ihrer Gehaltsvorstellung und  des frühestmöglichen Eintrittstermins per E-Mail an: <a href="">job@musterfirma.de.</a> Bei Rückfragen steht Ihnen Herr Max Mustermann gerne unter der Telefonnummer 0211 / 934 93  5802 zur Verfügung.
+                            Wir freuen uns auf Ihre aussagekräftige Bewerbung unter Angabe Ihrer Gehaltsvorstellung und
+                            des frühestmöglichen Eintrittstermins per E-Mail an: <a href="">job@musterfirma.de.</a> Bei
+                            Rückfragen steht Ihnen Herr Max Mustermann gerne unter der Telefonnummer 0211 / 934 93 5802
+                            zur Verfügung.
                         </div>
                         <div className={'info-section__content'}>
                             <p className={'info-section__credo'}>Musterfirma GmbH</p>
@@ -135,6 +139,23 @@ class HomePageMain extends Component {
                             <p className={'info-section__credo'}><a href="">www.musterfirma.de</a></p>
                         </div>
                     </div>
+
+                    <div className="embed-responsive embed-responsive-16by9 video-section">
+                        <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/qWoXz-f6HUg"
+                                allowFullScreen></iframe>
+                    </div>
+
+                    <div className={'row border mx-0 my-3 p-3 location-section'}>
+                        <div className={'col-sm-12 col-md-6 location-section__col'}>
+                            <div className={'map-container'}>
+                                <MapComponent/>
+                            </div>
+                        </div>
+                        <div className={'col-sm-12 col-md-6 location-section__col'}>
+
+                        </div>
+                    </div>
+
                 </div>
             </main>
         );
