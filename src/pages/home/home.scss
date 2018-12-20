@@ -1,0 +1,39 @@
+.main-container {
+
+  .main-tabs {
+    display: none;
+  }
+
+  .main-image {
+    position: relative;
+    height: 450px;
+    overflow: hidden;
+
+    .main-image__content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .main-container {
+
+    .main-tabs {
+      display: block;
+    }
+
+    .main-image {
+      height: 170px;
+      .main-image__content {
+        position: absolute;
+        max-width: 768px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+    }
+  }
+}

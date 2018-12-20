@@ -12,6 +12,5 @@ const HANDLERS = {
 
 export default function* () {
   yield all([
-    fork(HANDLERS)
   ]);
 }
