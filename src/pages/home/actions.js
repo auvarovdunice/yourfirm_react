@@ -7,7 +7,7 @@ import {GET_AWARDS, SET_AWARDS} from './constants'
              type: GET_AWARDS,
          };
      },
-     setAwards(awards) {
+     setAwards: (awards) => {
          return {
              type: SET_AWARDS,
              payload: awards

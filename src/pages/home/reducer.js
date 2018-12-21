@@ -19,36 +19,6 @@ const initialState = immutable({
     awards: []
 });
 const HANDLERS = {
-    [SAVE_CURRENT_USER]: (state, action) => ({
-        ...state,
-        currentUser: action.payload,
-        isAuthenticated: true,
-    }),
-    [CLEAR_CURRENT_USER]: (state) => ({
-        ...state,
-        currentUser: null,
-        isAuthenticated: false,
-        status: {}
-    }),
-    [ERROR_LOGIN]: (state, action) => ({
-        ...state,
-        currentUser: action.payload,
-        isAuthenticated: false,
-    }),
-    [PASSWORD_UPDATED]: (state, action) => ({
-        ...state,
-        currentUser: action.payload,
-        isAuthenticated: false,
-    }),
-    [SEND_CODE]: (state, action) => ({
-        ...state,
-        status: action.payload,
-        isAuthenticated: false,
-    }),
-    [SAVE_USER_UPDATE_INFO]: (state, action) => ({
-        ...state,
-        updateStatus: action.payload,
-    }),
     [GET_AWARDS]: (state, action) => ({
         ...state
     }),
