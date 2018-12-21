@@ -4,6 +4,7 @@ import {bindActionCreators} from 'redux'
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import {MapComponent} from './components/MapComponent/MapComponent'
+import Slider from "react-slick";
 
 import actions from './actions';
 
@@ -29,6 +30,14 @@ class HomePageMain extends Component {
         ]
     };
 
+    sliderSettings = {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+    };
 
     constructor(props) {
         super(props);
@@ -163,8 +172,11 @@ class HomePageMain extends Component {
 
                     <div className={'row border mx-0 my-5 p-0 location-section'}>
                         <div className={'col-sm-12 col-md-6 p-0 p-md-4 order-2 order-md-1 location-section__col'}>
-                            <div className={'map-container'}>
+                            <div className={'map-container position-relative'}>
                                 <MapComponent/>
+                                <div className={'map-button d-flex justify-content-center align-items-center position-absolute'}>
+                                    <span>KARTEN ANZEIGEN</span>
+                                </div>
                             </div>
                         </div>
                         <div className={'col-sm-12 col-md-6 p-4 order-1 order-md-2 location-section__col'}>
@@ -179,10 +191,19 @@ class HomePageMain extends Component {
 
                     <div className={'awards-section my-5 p-4 border'}>
                         <p className={'awards-section__header'}>Auszeichnungen</p>
-                        <div className={'awards-section__content'}></div>
-                        <div className={'row m-0'}>
-                            {this.state.awards && this.state.awards.map((item) => <img key={item.id} srs={item.src}
-                                                                                       alt={'award'}></img>)}
+                        <div className={'d-none d-sm-flex justify-content-start m-0'}>
+                            {this.props.awards && this.props.awards.map((item) =>
+                                <div key={item.id} className={'mr-3'}>
+                                    <img src={item.src}  alt={'award'}></img>
+                                </div>)}
+                        </div>
+                        <div className={'d-sm-none m-0 awards-section__slick'}>
+                            <Slider {...this.sliderSettings}>
+                                {this.props.awards && this.props.awards.map((item) =>
+                                    <div key={item.id} className={'awards-section__slick-container d-flex align-items-center justify-content-center'}>
+                                        <img src={item.src}  alt={'award'} className={'awards-section__slick-img'}></img>
+                                    </div>)}
+                            </Slider>
                         </div>
                     </div>
                 </div>
@@ -193,9 +214,6 @@ class HomePageMain extends Component {
     componentDidMount() {
         this.props.getAwards();
     }
-
-    componentDidUpdate(prevProps, prevState, snapshot) {
-    }
 }
 
 const mapStateToProps = (state, ownProps) => {
@@ -205,19 +223,11 @@ const mapStateToProps = (state, ownProps) => {
 }
 
 const mapDispatchToProps = (dispatch) => {
-    return {
-        getAwards: () => {
-            dispatch(actions.getAwards());
-        },
-    }
-}
-
-
-function matchDispatchToProps(dispatch) {
     return bindActionCreators({
         getAwards: actions.getAwards,
     }, dispatch)
 }
+
 
 export default connect(mapStateToProps, mapDispatchToProps)(HomePageMain);
 
