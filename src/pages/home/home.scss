@@ -6,8 +6,15 @@
 
   .files-section {
     height: 50px;
-    .row {
-      .
+    .files-section__row {
+      .files-section__col {
+        .files-section__text {
+          font-size: 18px;
+          .files-section__label {
+            font-size: 14px;
+          }
+        }
+      }
     }
   }
 

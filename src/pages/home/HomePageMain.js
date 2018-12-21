@@ -69,13 +69,16 @@ class HomePageMain extends Component {
                     <div className={'files-section d-block d-sm-none border-top border-bottom'}>
                         <div className={'files-section__row row p-0 m-0 h-100'}>
                             <div className={'files-section__col col-9'}>
-                                <div className={'h-100 d-flex justify-content-between align-items-center'}>
-                                    <span className={'text-secondary'}> <MdInsertDriveFile/> REF.-NR.</span>
-                                    <span className={''}>YF1919054</span>
+                                <div className={'files-section__text h-100 d-flex justify-content-around align-items-center'}>
+                                    <span className={'files-section__label d-flex align-items-center justify-content-between text-secondary'}>
+                                        <MdInsertDriveFile className={'mr-1'}/>
+                                        REF.-NR.
+                                    </span>
+                                    <span className={'files-section__file'}>YF1919054</span>
                                 </div>
                             </div>
                             <div className={'files-section__col col-3'}>
-                                <div className={'files-section__controlls h-100 d-flex justify-content-between align-items-center'}>
+                                <div className={'files-section__controls h-100 d-flex justify-content-between align-items-center'}>
                                     <IoIosArrowBack/>
                                     <IoIosArrowForward/>
                                 </div>
