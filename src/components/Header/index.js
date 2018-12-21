@@ -1,6 +1,5 @@
 import React from "react";
 import './header.scss';
-import { IconContext } from "react-icons";
 import { IoIosArrowBack, IoMdShare } from "react-icons/io";
 import logo from '../../public/Logo.png'
 
@@ -15,7 +14,7 @@ class Header extends React.PureComponent {
     render() {
         return (
             <header className="header">
-                <div className={'row justify-content-between align-items-center mobile-header'}>
+                <div className={'d-sm-none row justify-content-between align-items-center mobile-header'}>
                     <div className={'col-1'}>
                         <IoIosArrowBack className={'icon'}></IoIosArrowBack>
                     </div>

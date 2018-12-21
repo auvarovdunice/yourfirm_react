@@ -4,6 +4,13 @@
 
   }
 
+  .files-section {
+    height: 50px;
+    .row {
+      .
+    }
+  }
+
   .main-image {
     position: relative;
     height: 450px;
@@ -84,6 +91,15 @@
         .awards-section__slick-img {
           min-height: 190px;
         }
+      }
+    }
+  }
+
+  .mobile-actions {
+    height: 50px;
+    .mobile-actions__col {
+      .mobile-actions__button {
+        cursor: pointer;
       }
     }
   }

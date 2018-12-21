@@ -3,16 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3ff8b7bd-5933-4d79-9d8f-0e88b7ea1afc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/HomePageMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/HomePageMain.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/effects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/effects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/selectors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/root-saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/root-saga.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -194,19 +188,19 @@
         <counts>
           <entry key="gitignore" value="9" />
           <entry key="html" value="4" />
-          <entry key="js" value="3289" />
+          <entry key="js" value="4253" />
           <entry key="json" value="2" />
-          <entry key="scss" value="859" />
-          <entry key="txt" value="83" />
+          <entry key="scss" value="1239" />
+          <entry key="txt" value="130" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="4" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="3289" />
-          <entry key="PLAIN_TEXT" value="92" />
-          <entry key="SCSS" value="859" />
+          <entry key="JavaScript" value="4253" />
+          <entry key="PLAIN_TEXT" value="139" />
+          <entry key="SCSS" value="1239" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -214,12 +208,12 @@
           <entry key="gitignore" value="2" />
           <entry key="html" value="1" />
           <entry key="ico" value="1" />
-          <entry key="js" value="63" />
+          <entry key="js" value="66" />
           <entry key="json" value="11" />
           <entry key="jsx" value="4" />
           <entry key="lock" value="1" />
-          <entry key="png" value="4" />
-          <entry key="scss" value="12" />
+          <entry key="png" value="9" />
+          <entry key="scss" value="15" />
           <entry key="svg" value="1" />
           <entry key="ts" value="1" />
           <entry key="xml" value="2" />
@@ -228,12 +222,12 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="Image" value="5" />
+          <entry key="Image" value="10" />
           <entry key="JSON" value="11" />
           <entry key="JSX Harmony" value="4" />
-          <entry key="JavaScript" value="63" />
+          <entry key="JavaScript" value="66" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="SCSS" value="12" />
+          <entry key="SCSS" value="15" />
           <entry key="SVG" value="1" />
           <entry key="TypeScript" value="1" />
           <entry key="XML" value="2" />
@@ -246,6 +240,9 @@
         </counts>
       </usages-collector>
     </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="react_test_app" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -261,85 +258,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/home/constants.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/home/selectors.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/home/actions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/home/effects.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/home/reducer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/store/root-reducer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/home/home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="153">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Header/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Footer/footer.scss">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/home/HomePageMain.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="184" column="65" selection-start-line="184" selection-start-column="65" selection-end-line="184" selection-end-column="65" />
+            <state relative-caret-position="240">
+              <caret line="73" column="54" lean-forward="true" selection-start-line="73" selection-start-column="54" selection-end-line="73" selection-end-column="54" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -348,23 +293,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/store/root-saga.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Header/header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="289">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/public/Award1.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/home/components/MapComponent/MapComponent.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding>
-                <element signature="e#0#47#0" expanded="true" />
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/public/Award5.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>MuiCard-root-77</find>
-      <find>wrapper</find>
       <find>transitio</find>
       <find>header-nav-toolbar</find>
       <find>zoom</find>
@@ -393,6 +364,8 @@
       <find>dotenv</find>
       <find>authReducer</find>
       <find>OBE_UNKNOWN_ACTION</find>
+      <find>d-sm</find>
+      <find>d-none</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -422,18 +395,18 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/components/Footer/index.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/index.scss" />
-        <option value="$PROJECT_DIR$/src/components/Header/header.scss" />
-        <option value="$PROJECT_DIR$/src/components/Header/index.js" />
         <option value="$PROJECT_DIR$/src/pages/home/components/MapComponent/MapComponent.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/pages/home/selectors.js" />
-        <option value="$PROJECT_DIR$/src/pages/home/home.scss" />
         <option value="$PROJECT_DIR$/src/store/root-saga.js" />
         <option value="$PROJECT_DIR$/src/pages/home/constants.js" />
         <option value="$PROJECT_DIR$/src/pages/home/actions.js" />
         <option value="$PROJECT_DIR$/src/pages/home/reducer.js" />
         <option value="$PROJECT_DIR$/src/pages/home/effects.js" />
+        <option value="$PROJECT_DIR$/src/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/Header/header.scss" />
+        <option value="$PROJECT_DIR$/src/components/Header/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/home/home.scss" />
         <option value="$PROJECT_DIR$/src/pages/home/HomePageMain.js" />
       </list>
     </option>
@@ -459,9 +432,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="58" />
-    <option name="y" value="23" />
-    <option name="width" value="1014" />
+    <option name="x" value="50" />
+    <option name="y" value="52" />
+    <option name="width" value="1862" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -552,6 +525,12 @@
               <item name="react_test_app" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="public" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="react_test_app" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="store" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
@@ -617,7 +596,7 @@
       <workItem from="1545285893575" duration="883000" />
       <workItem from="1545287021875" duration="3073000" />
       <workItem from="1545291148917" duration="27101000" />
-      <workItem from="1545371782405" duration="15942000" />
+      <workItem from="1545371782405" duration="24980000" />
     </task>
     <task id="LOCAL-00001" summary="structure changes">
       <created>1538576202555</created>
@@ -780,11 +759,25 @@
       <option name="project" value="LOCAL" />
       <updated>1545320114695</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Awards">
+      <created>1545392029471</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1545392029472</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Map button, slick-slider">
+      <created>1545397322045</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1545397322048</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78169000" />
+    <option name="totallyTimeSpent" value="87207000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -800,21 +793,21 @@
     <editor active="true" />
     <layout>
       <window_info id="npm" order="0" side_tool="true" />
-      <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.17599131" />
-      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" sideWeight="0.50144094" side_tool="true" visible="true" weight="0.17599131" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.4985591" visible="true" weight="0.17599131" />
+      <window_info id="Structure" order="3" sideWeight="0.50144094" side_tool="true" weight="0.17599131" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.3943509" side_tool="true" visible="true" weight="0.42038217" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5149375" side_tool="true" visible="true" weight="0.26326963" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
       <window_info anchor="bottom" id="Run" order="4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.6056491" visible="true" weight="0.42038217" />
-      <window_info anchor="bottom" id="TODO" order="9" sideWeight="0.5497013" weight="0.32908705" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.60510594" weight="0.42038217" />
+      <window_info anchor="bottom" id="TODO" order="9" sideWeight="0.5480717" weight="0.32908705" />
       <window_info anchor="bottom" id="TypeScript" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.48614883" weight="0.26326963" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.48506248" visible="true" weight="0.26326963" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -868,14 +861,16 @@
     <MESSAGE value="Header done" />
     <MESSAGE value="Done info-sections" />
     <MESSAGE value="Map section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Map section" />
+    <MESSAGE value="Awards" />
+    <MESSAGE value="Map button, slick-slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="Map button, slick-slider" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/pages/home/HomePageMain.js</url>
-          <line>189</line>
+          <line>242</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -891,13 +886,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pages/portal/reducer.js" />
-    <entry file="file://$PROJECT_DIR$/src/pages/portal/portal.scss" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/portal/container.js" />
-    <entry file="file://$PROJECT_DIR$/src/pages/portal/PortalPageMain.js" />
     <entry file="file://$PROJECT_DIR$/src/pages/campaign/container.js" />
     <entry file="file://$PROJECT_DIR$/src/pages/campaign/CampaignPageMain.js" />
     <entry file="file://$PROJECT_DIR$/src/components/Auth/Auth.js" />
@@ -937,9 +925,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer/footer.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tempPolyfills.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -962,13 +947,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/public/Logo.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/logo.svg">
       <provider selected="true" editor-type-id="images" />
@@ -994,33 +972,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="83" selection-start-line="22" selection-start-column="83" selection-end-line="22" selection-end-column="83" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/home/components/MapComponent/MapComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1092,15 +1043,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/home/HomePageMain.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/home/constants.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1145,17 +1087,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/Award2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/Award3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/Award4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/Award5.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/public/Award1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/components/MapComponent/MapComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/HomePageMain.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Footer/footer.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/home/home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="153">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/home/HomePageMain.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="184" column="65" selection-start-line="184" selection-start-column="65" selection-end-line="184" selection-end-column="65" />
+        <state relative-caret-position="240">
+          <caret line="73" column="54" lean-forward="true" selection-start-line="73" selection-start-column="54" selection-end-line="73" selection-end-column="54" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

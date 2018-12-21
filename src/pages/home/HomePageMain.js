@@ -5,6 +5,8 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import {MapComponent} from './components/MapComponent/MapComponent'
 import Slider from "react-slick";
+import { MdVideocam, MdInsertDriveFile } from "react-icons/md";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 import actions from './actions';
 
@@ -64,7 +66,24 @@ class HomePageMain extends Component {
                         </Tabs>
                     </div>
 
-                    <div className={'main-image border'}>
+                    <div className={'files-section d-block d-sm-none border-top border-bottom'}>
+                        <div className={'files-section__row row p-0 m-0 h-100'}>
+                            <div className={'files-section__col col-9'}>
+                                <div className={'h-100 d-flex justify-content-between align-items-center'}>
+                                    <span className={'text-secondary'}> <MdInsertDriveFile/> REF.-NR.</span>
+                                    <span className={''}>YF1919054</span>
+                                </div>
+                            </div>
+                            <div className={'files-section__col col-3'}>
+                                <div className={'files-section__controlls h-100 d-flex justify-content-between align-items-center'}>
+                                    <IoIosArrowBack/>
+                                    <IoIosArrowForward/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className={'main-image border my-5 my-sm-0'}>
                         <img src={previewImage} className={'main-image__content'}></img>
                     </div>
 
@@ -204,6 +223,19 @@ class HomePageMain extends Component {
                                         <img src={item.src}  alt={'award'} className={'awards-section__slick-img'}></img>
                                     </div>)}
                             </Slider>
+                        </div>
+                    </div>
+
+                    <div className={'mobile-actions row mt-5 p-0 border d-sm-none border-top'}>
+                        <div className={'mobile-actions__col col-6 p-0'}>
+                            <div className={'mobile-actions__button h-100 d-flex justify-content-center align-items-center text-white bg-success'}>
+                                <span>BEWERBEN</span>
+                            </div>
+                        </div>
+                        <div className={'mobile-actions__col col-6 p-0'}>
+                            <div className={'mobile-actions__button h-100 d-flex justify-content-center align-items-center text-success bg-white'}>
+                                <span>PER <MdVideocam class={'h-100 '}/> BEWERBEN</span>
+                            </div>
                         </div>
                     </div>
                 </div>
