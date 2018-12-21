@@ -17,3 +17,5 @@ export const ERROR_LOGIN = 'ERROR_LOGIN';
 export const SEND_CODE = 'SEND_CODE';
 export const PASSWORD_UPDATED = 'PASSWORD_UPDATED';
 export const SAVE_USER_UPDATE_INFO = "SAVE_USER_UPDATE_INFO";
+export const GET_AWARDS = 'GET_AWARDS';
+export const SET_AWARDS = 'SET_AWARDS';

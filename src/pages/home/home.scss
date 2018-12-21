@@ -1,7 +1,7 @@
 .main-container {
 
   .tabs {
-    display: none;
+
   }
 
   .main-image {
@@ -18,23 +18,20 @@
   }
 
   .info-section {
-    margin: 30px 0px;
-    padding: 30px;
-
     .info-section__header {
       margin-bottom: 10px;
-      font-size: 24px;
+      font-size: 20px;
       font-weight: bold;
       color: rgb(0, 63, 106);
     }
 
     .info-section__subheader {
-      font-size: 20px;
+      font-size: 18px;
       font-weight: bold;
     }
 
     .info-section__content {
-      margin: 20px 0;
+      margin-top: 20px;
 
       .info-section__credo {
         margin: 0;
@@ -45,7 +42,21 @@
   .location-section {
     .location-section__col {
       .map-container {
-        height: 300px;
+        height: 180px;
+      }
+
+      .location-section__standort {
+        .location-section__header {
+          margin-bottom: 10px;
+          font-size: 20px;
+          font-weight: bold;
+          color: rgb(0, 63, 106);
+        }
+
+        .location-section__subheader {
+          font-size: 18px;
+          font-weight: bold;
+        }
       }
     }
   }
@@ -55,18 +66,10 @@
 @media (max-width: 768px) {
   .main-container {
 
-    .tabs {
-      display: block;
-    }
-
     .main-image {
       height: 170px;
       .main-image__content {
-        position: absolute;
         max-width: 768px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
       }
     }
   }
