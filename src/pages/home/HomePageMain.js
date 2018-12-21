@@ -19,6 +19,28 @@ import award4 from '../../public/Award4.png'
 import award5 from '../../public/Award5.png'
 
 
+function SlickNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+        <div
+            className={className}
+            style={{ ...style, display: "block", color: "grey", 'border-radius': "50%", 'background-color':"grey", margin:"0 10px"}}
+            onClick={onClick}
+        />
+    );
+}
+
+function SlickPrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+        <div
+            className={className}
+            style={{ ...style, display: "block", color: "grey", 'border-radius': "50%", 'background-color':"grey", margin:"0 10px"}}
+            onClick={onClick}
+        />
+    );
+}
+
 class HomePageMain extends Component {
 
     state = {
@@ -39,6 +61,8 @@ class HomePageMain extends Component {
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: true,
+        nextArrow: <SlickNextArrow />,
+        prevArrow: <SlickPrevArrow />
     };
 
     constructor(props) {
@@ -224,7 +248,8 @@ class HomePageMain extends Component {
                                 {this.props.awards && this.props.awards.map((item) =>
                                     <div key={item.id} className={'awards-section__slick-container d-flex align-items-center justify-content-center'}>
                                         <img src={item.src}  alt={'award'} className={'awards-section__slick-img'}></img>
-                                    </div>)}
+                                    </div>)
+                                }
                             </Slider>
                         </div>
                     </div>
@@ -237,7 +262,7 @@ class HomePageMain extends Component {
                         </div>
                         <div className={'mobile-actions__col col-6 p-0'}>
                             <div className={'mobile-actions__button h-100 d-flex justify-content-center align-items-center text-success bg-white'}>
-                                <span>PER <MdVideocam class={'h-100 '}/> BEWERBEN</span>
+                                <span>PER <MdVideocam className={'h-100 '}/> BEWERBEN</span>
                             </div>
                         </div>
                     </div>
